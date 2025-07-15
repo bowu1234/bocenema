@@ -31,3 +31,13 @@ if (!localStorage.getItem("name")) {
 myButton.onclick = function () {
   setUserName();
 };
+
+const myImage = document.querySelector("img");
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/PIcture.jpg") {
+    myImage.setAttribute("src", "images/loginPicture.jpg");
+  } else {
+    myImage.setAttribute("src", "images/PIcture.jpg");
+  }
+};
