@@ -9,31 +9,112 @@
       rel="stylesheet"
     />
     <title>Bowu影院</title>
+    <meta name="author" content="Bowu" />
+    <meta name="description" content="Bowu影院的主页" />
+    <link rel="icon" href="images/favicon.ico" />
   </head>
   <body>
-    <h1>Bowu影院</h1>
-    <img src="images/PIcture.jpg" alt="scene" />
-    <p>
-      Bowu影院是一家十分有十二分的人的欢迎，大家都非常喜欢来这里看电影。并且，这里的电影十分热门，票价非常实惠。
-    </p>
-    <a
-      href="https://baidu.com"
-      title="Bowu自定义的百度链接，想要啥自己搜"
-      target="_parent"
-      >前往百度搜索Bowu影院</a
-    >
-    <p>所以，好看的热门电影有哪些呢，我来给你举一些例子吧</p>
-    <ul>
-      <li>阿凡达</li>
-      <li>肖申克的救赎</li>
-      <li>绿皮书</li>
-      <li>流浪地球</li>
-    </ul>
-    <input type="text" disabled />
-    <p>
-      为了显示这段文字，我使用了&lt;p&gt;标签，但是我还想看看这些&quot;&quot;还有&apos;&apos;以及&amp;
-    </p>
-    <button>Change user</button>
+    <header><h1>Bowu影院</h1></header>
+    <nav>
+      <ul>
+        <li><a href="home.html">主页</a></li>
+        <li><a href="cenema.html">影院</a></li>
+        <li><a href="#">个人中心</a></li>
+      </ul>
+
+      <form>
+        <input type="search" name="q" placeholder="搜索电影" />
+        <input type="submit" value="搜索" />
+      </form>
+    </nav>
+
+    <main>
+      <img src="images/PIcture.jpg" alt="scene" />
+      <p>
+        Bowu影院是一家十分有十二分的人的欢迎，大家都非常喜欢来这里看电影。并且，这里的电影十分热门，票价非常实惠。
+      </p>
+      <a
+        href="https://baidu.com"
+        title="Bowu自定义的百度链接，想要啥自己搜"
+        target="_parent"
+        >前往百度搜索Bowu影院</a
+      >
+      <aside>
+        <h2>热门电影</h2>
+        <p>所以，好看的热门电影有哪些呢，我来给你举一些例子吧</p>
+        <ul>
+          <li>阿凡达</li>
+          <li>肖申克的救赎</li>
+          <li>绿皮书</li>
+          <li>流浪地球</li>
+        </ul>
+        <input type="text" disabled />
+        <div class="shopping-cart">
+          <h2>购物车</h2>
+          <ul>
+            <li>
+              <p>
+                <a href=""><strong>《哪吒》</strong></a
+                >：￥55.
+              </p>
+              <img src="images/nezha.jpg" alt="哪吒" />
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <p>
+        为了显示这段文字，我使用了&lt;p&gt;标签，但是我还想看看这些&quot;&quot;还有&apos;&apos;以及&amp;
+      </p>
+      <button>Change user</button>
+    </main>
+
+    <footer>
+      <p>© 2050 Bowu保留所有权利</p>
+      <p>
+        如有问题，可给<a href="mailto:3302047784@qq.com">Bowu邮箱</a> 发邮件
+      </p>
+    </footer>
     <script src="scripts/main.js"></script>
+
+    <!-- <p>
+      <strong>HTML <code>&lt;blockquote&gt;</code> 元素</strong>（或<em
+        >HTML 块级引用元素</em
+      >）表示所附文本为扩展引用。
+    </p>
+    <p>这是块引用：</p>
+    <blockquote
+      cite="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/blockquote"
+    >
+      <p>
+        <strong>HTML <code>&lt;blockquote&gt;</code> 元素</strong>（或<em
+          >HTML 块级引用元素</em
+        >）表示所附文本为扩展引用。
+      </p>
+    </blockquote>
+    <p>
+      你好！欢迎访问我的激励网页！<a
+        href="http://www.brainyquote.com/quotes/authors/c/confucius.html"
+        ><cite>孔子曰：</cite></a
+      >
+    </p>
+    <blockquote cite="https://zh.wikipedia.org/zh-hans/孔子">
+      <p>譬如为山，未成一篑，止，吾止也。譬如平地，虽覆一篑，进，吾往也。</p>
+    </blockquote>
+    <p>
+      要保持乐观，<q cite="http://example.com/affirmationsforpositivethinking"
+        >不要说泄气的话</q
+      >。（源自
+      <a href="http://example.com/affirmationsforpositivethinking"
+        ><cite>Affirmations for Positive Thinking</cite></a
+      >
+      。）
+    </p> -->
+    <p><abbr title="美国国家航空航天局">NASA </abbr>做了一些动人心弦的事情。</p>
+    <a
+      href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=zh-CN"
+      download="firefox-latest-64bit-installer.exe"
+    >
+      下载最新的 Firefox 中文版
+    </a>
   </body>
 </html>
